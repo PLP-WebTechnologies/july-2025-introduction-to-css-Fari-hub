@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;  /* Sets the font for the whole page */
+    margin: 0;   /* Removes default browser margin */
+    padding: 0;  /* Removes default browser padding */
+    background-color: #f9f9f9;  /* Light gray background */
+    color: #333;  /* Dark gray text color */
+}
+
+
+.site-header {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    padding: 20px;             /* Space inside the header (Box Model: padding) */
+    text-align: center;        /* Center the text */
+}
+
+/* Navigation Menu Styles */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;       /* Removes default padding */
+}
+
+nav ul li {
+    display: inline;  /* Places items horizontally */
+    margin: 0 15px;   /* Space between menu items */
+}
+
+nav ul li a {
+    color: white;         /* White links */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold;    /* Makes text bold *
+    transition: color 0.3s; /* Smooth color change on hover */}
+
+.intro {
+    margin: 20px;                  /* Space outside the box (Box Model: margin) */
+    padding: 15px;                 /* Space inside the box (Box Model: padding) */
+    border: 2px solid #ddd;        /* Thin gray border (Box Model: border) */
+    background-color: #fff;        /* White background */
+}
+
+
+.card {
+    margin: 20px;                  
+    padding: 20px;                 /* Creates space inside the card */
+    border: 2px solid #4CAF50;     /* Green border around the card */
+    background-color: #e8f5e9;     /* Light green background */
+    border-radius: 8px;            /* Rounds the corners */
+}
+
+
+.btn {
+    background-color: #4CAF50;   /* Green button */
+    color: white;                /* White text */
+    border: none;                /* Removes default border */
+    padding: 10px 15px;          /* Vertical & horizontal padding */
+    margin-top: 10px;            /* Pushes button slightly down */
+    cursor: pointer;             /* Changes cursor to hand on hover */
+    border-radius: 5px;          /* Rounded corners */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #45a049;  /* Darker green when hovered */
+}
+
+
+.site-footer {
+    background-color: #333; /* Dark gray background */
+    color: white;           /* White text */
+    text-align: center;     /* Centered footer text */
+    padding: 15px;          /* Space inside footer */
+    margin-top: 20px;       /* Space above footer */
+}
